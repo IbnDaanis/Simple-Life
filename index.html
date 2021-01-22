@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Living the Simple Life</title>
+  </head>
+
+  <body data-barba="wrapper">
+    <div class="cover"></div>
+    <div class="cover cover-2"></div>
+    <div class="cover cover-3"></div>
+    <div data-barba="container" data-barba-namespace="home" class="barba">
+      <header>
+        <nav class="navigation">
+          <div class="logo">
+            <h1 class="title">Living the Simple Life</h1>
+            <h2 class="title2">A blog exploring minimalism in life</h2>
+          </div>
+          <div class="menu">
+            <ul class="menuItems">
+              <li class="menuItem current"><a href="#">Home</a></li>
+              <li class="menuItem"><a href="about.html">About Me</a></li>
+              <li class="menuItem"><a href="posts.html">Recent Posts</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div class="container">
+          <section class="articles">
+            <!-- Main Article -->
+            <div class="mainArticle">
+              <div class="imgContainer">
+                <img
+                  src="./images/samantha-gades-BlIhVfXbi9s-unsplash.jpg"
+                  alt="A desk"
+                />
+              </div>
+              <p class="date">July 23, 2020 | 6 comments</p>
+              <h2 class="mainArticleTitle">Finding simplicity in life</h2>
+              <p class="mainArticleText">
+                <strong>Life can get complicated really quickly</strong>, but it
+                doesn't have to be! There are many ways to simplify your life,
+                <u>a few of which we've explored in the past</u>. This week
+                we're taking a bit of a approach though, in how you can find
+                simplicity in the life you already living. continue reading
+              </p>
+              <p class="continue">Continue Reading</p>
+            </div>
+            <!-- First Article -->
+            <div class="article">
+              <div class="articleImage">
+                <img
+                  src="./images/charles-deluvio-D-vDQMTfAAU-unsplash.jpg"
+                  alt="Food"
+                />
+                <p class="date">July 22, 2020 | 3 comments</p>
+              </div>
+              <div class="articleInfo">
+                <h3 class="articleTitle">Keeping Cooking Simple</h3>
+                <p class="articleSummary">
+                  Food is a very important part of everyone's life. If you want
+                  to be healthy, you have to eat healthy. One of the easiest
+                  ways to do that is to keep your cooking nice and simple.
+                </p>
+                <p class="continue">Continue Reading</p>
+              </div>
+            </div>
+            <!-- Second Article -->
+            <div class="article">
+              <div class="articleImage">
+                <img
+                  src="./images/bench-accounting-nvzvOPQW0gc-unsplash.jpg"
+                  alt="Desk"
+                />
+                <p class="date">July 21, 2020 | 8 comments</p>
+              </div>
+              <div class="articleInfo">
+                <h3 class="articleTitle">Simplicity and work</h3>
+                <p class="articleSummary">
+                  Work is often a major source of stress. People get frustrated,
+                  it ruins their relationship with others and it leads to
+                  burnout. By keeping your work life as simple as possible, it
+                  will help balance everything out.
+                </p>
+                <p class="continue">Continue Reading</p>
+              </div>
+            </div>
+            <!-- Third Article -->
+            <div class="article">
+              <div class="articleImage">
+                <img
+                  src="./images/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg"
+                  alt="plant"
+                  class="plant"
+                />
+                <p class="date">July 19, 2020 | 6 comments</p>
+              </div>
+              <div class="articleInfo">
+                <h3 class="articleTitle">Simple decorations</h3>
+                <p class="articleSummary">
+                  A home isn't a home until you've decorated a little. People
+                  either don't decorate, or they go overboard and it doesn't
+                  have the impact they were hoping for. Staying simple will help
+                  draw the eye where you want it to and make things pop like
+                  never before.
+                </p>
+                <p class="continue">Continue Reading</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Sidebar -->
+          <section class="sidebar">
+            <div id="about" class="card">
+              <h3 class="about">About Me</h3>
+              <div class="img">
+                <img
+                  src="./images/mike-baker-3Y366aqddJ0-unsplash.jpg"
+                  alt="Mike"
+                />
+              </div>
+              <p>
+                I find life better, and I'm happier, when things are nice and
+                simple.
+              </p>
+            </div>
+
+            <!-- Recent Articles -->
+            <div class="card">
+              <h3 class="about">Recent Posts</h3>
+              <div class="post">
+                <img
+                  src="./images/charles-deluvio-D-vDQMTfAAU-unsplash.jpg"
+                  alt="Mike"
+                />
+                <h3 class="articleTitle">Keeping Cooking Simple</h3>
+              </div>
+              <div class="post">
+                <img src="./images/bench-accounting-nvzvOPQW0gc-unsplash.jpg" />
+                <h3 class="articleTitle">Simplicity and work</h3>
+              </div>
+              <div class="post">
+                <img
+                  src="./images/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg"
+                  alt="Mike"
+                />
+                <h3 class="articleTitle">Simple decorations</h3>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <p>Living the Simple Life © 2020</p>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>

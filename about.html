@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Living the Simple Life</title>
+  </head>
+
+  <body data-barba="wrapper">
+    <div class="cover"></div>
+    <div class="cover cover-2"></div>
+    <div class="cover cover-3"></div>
+    <div data-barba="container" data-barba-namespace="about" class="barba">
+      <header>
+        <nav class="navigation">
+          <div class="logo">
+            <h1 class="title">Living the Simple Life</h1>
+            <h2 class="title2">A blog exploring minimalism in life</h2>
+          </div>
+          <div class="menu">
+            <ul class="menuItems">
+              <li class="menuItem"><a href="index.html">Home</a></li>
+              <li class="menuItem current"><a href="#">About Me</a></li>
+              <li class="menuItem"><a href="posts.html">Recent Posts</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div class="container">
+          <section class="articles">
+            <!-- Main Article -->
+            <div class="mainArticle aboutMe">
+              <div class="imgContainer">
+                <img
+                  src="./images/mike-baker-3Y366aqddJ0-unsplash.jpg"
+                  alt="Mike"
+                  id="mike"
+                />
+              </div>
+              <h2 class="mainArticleTitle">
+                My name is John and living the simple life saved my life
+              </h2>
+              <!--With how much it turned my life around, I felt like I had no choice but to start sharing how I did it, and how others can benefit from living a simple life as well, which is why I started this site! -->
+              <p class="mainArticleText">
+                <strong>I used to be a pack rat. </strong>I had so many things
+                that I thought that I loved, but the truth was I couldn't even
+                appreciate any of it because there was too much.<br /><br />Things
+                were terrible. I had a job that I hated, a home that I didn't
+                want to live in, and I couldn't hold a relationship.
+              </p>
+              <h3 class="subHeading">How I turned Things Around</h3>
+              <p class="mainArticleText">
+                <strong
+                  >How I turned things around I was on the verge of a breakdown
+                  when I got rid of everything</strong
+                >. I literally put 90% of my possessions in the garbage, sold my
+                place and moved into a smaller apartment, and I quit my job.<br /><br />
+                It wasn't easy at all, but everything around me was in such a
+                bad place, I didn't know what else to do. And it worked.
+              </p>
+              <h3 class="subHeading">Now I live the simple life</h3>
+              <p class="mainArticleText">
+                Now that I'm living a simple life, things are so much better.
+                I'm less stressed, enjoy life and work more, and I have more
+                free time to enjoy. <br /><br />With how much it turned my life
+                around,
+                <strong
+                  >I felt like I had no choice but to start sharing how I did
+                  it</strong
+                >, and how others can benefit from living a simple life as well,
+                which is why I started this site!
+              </p>
+            </div>
+          </section>
+
+          <!-- Sidebar -->
+          <section class="sidebar">
+            <!-- Recent Articles -->
+            <div class="card">
+              <h3 class="about">Recent Posts</h3>
+              <div class="post">
+                <img
+                  src="./images/charles-deluvio-D-vDQMTfAAU-unsplash.jpg"
+                  alt="Mike"
+                />
+                <h3 class="articleTitle">Keeping Cooking Simple</h3>
+              </div>
+              <div class="post">
+                <img src="./images/bench-accounting-nvzvOPQW0gc-unsplash.jpg" />
+                <h3 class="articleTitle">Simplicity and work</h3>
+              </div>
+              <div class="post">
+                <img
+                  src="./images/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg"
+                  alt="Mike"
+                />
+                <h3 class="articleTitle">Simple decorations</h3>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <p>Living the Simple Life © 2020</p>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>
